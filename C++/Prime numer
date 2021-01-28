@@ -10,10 +10,10 @@ int main()
  int n1=n/1;
  int n2=n/n;
   if((n1==n)&&(n2==1)){
-      if(n%2==0){
+      if((n%2==0)&&(n!=2)){
            cout<<"No it is not a Prime Number";
           }
-          else{
+          else if(n%2==1){
       cout<<"yes it is prime number";
           }
       
